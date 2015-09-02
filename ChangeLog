@@ -1,4 +1,9 @@
-2015-08-06  Franz Holzinger  <kontakt@fholzinger.com>
+2015-09-02  Franz Holzinger  <franz@ttproducts.de>
+	* Add countries: CS, ME RS, JE, GG, IM, MF, BL, BQ, CWS, SX, SS
+	* Modify countries: AX
+	* Add currencies: VEF, ZMW
+
+2015-08-06  Franz Holzinger  <franz@ttproducts.de>
 	* update for static_info_tables 6.2.1 and TYPO3 6.2 and 7.0
 
 2006-12-19  Franz Holzinger  <kontakt@fholzinger.com>
