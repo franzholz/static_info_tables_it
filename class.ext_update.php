@@ -21,6 +21,10 @@
 *
 *  This copyright notice MUST APPEAR in all copies of the script!
 ***************************************************************/
+
+use TYPO3\CMS\Core\Utility\GeneralUtility;
+use TYPO3\CMS\Extbase\Utility\LocalizationUtility;
+
 /**
  * Class for updating the db
  */
@@ -30,24 +34,26 @@ class ext_update {
 	 *
 	 * @return string HTML
 	 */
-	function main()	{
+	public function main() {
 		$content = '';
-		$objectManager = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\\CMS\\Extbase\\Object\\ObjectManager');
+		/** @var \TYPO3\CMS\Extbase\Object\ObjectManager $objectManager */
+		$objectManager = GeneralUtility::makeInstance('TYPO3\\CMS\\Extbase\\Object\\ObjectManager');
 
 		// Clear the class cache
+		/** @var \SJBR\StaticInfoTables\Cache\ClassCacheManager $classCacheManager */
 		$classCacheManager = $objectManager->get('SJBR\\StaticInfoTables\\Cache\\ClassCacheManager');
 		$classCacheManager->reBuild();
 
 		// Update the database
+		/** @var \SJBR\StaticInfoTables\Utility\DatabaseUpdateUtility $databaseUpdateUtility */
 		$databaseUpdateUtility = $objectManager->get('SJBR\\StaticInfoTables\\Utility\\DatabaseUpdateUtility');
 		$databaseUpdateUtility->doUpdate('static_info_tables_it');
-		
-		$content.= '<p>' . \TYPO3\CMS\Extbase\Utility\LocalizationUtility::translate('updateLanguageLabels', 'StaticInfoTables') . ' static_info_tables_it.</p>';
+
+		$content.= '<p>' . LocalizationUtility::translate('updateLanguageLabels', 'StaticInfoTables') . ' static_info_tables_it.</p>';
 		return $content;
 	}
 
-	function access() {
-		return true;
+	public function access() {
+		return TRUE;
 	}
 }
-?>
