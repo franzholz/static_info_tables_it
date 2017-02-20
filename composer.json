@@ -1,0 +1,29 @@
+{
+  "name": "sjbr/static_info_tables_it",
+  "description": "Italian (it) language pack for the Static Info Tables providing localized names for countries, currencies and so on.",
+  "type": "typo3-cms-extension",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Franz Holzinger",
+      "role": "Developer"
+    }
+  ],
+  "homepage": "https://github.com/franzholz/static_info_tables_it",
+  "support": {
+	"issues": "https://github.com/franzholz/static_info_tables_it/issues"
+  },
+  "replace": {
+    "static_info_tables_it": "*",
+    "sjbr/static_info_tables_it": "*",
+    "typo3-ter/static-info-tables-it": "self.version"
+  },
+  "require": {
+    "typo3/cms-core": ">=6.2,<9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SJBR\\StaticInfoTables\\": "Classes/"
+    }
+  }
+}
