@@ -57,4 +57,3 @@ class Territory extends AbstractEntity {
 		return $this->nameIt;
 	}
 }
-?>

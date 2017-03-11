@@ -60,4 +60,3 @@ class CountryZone extends AbstractEntity {
 		return $this->nameIt;
 	}
 }
-?>

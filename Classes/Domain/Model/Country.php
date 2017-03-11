@@ -57,4 +57,3 @@ class Country extends AbstractEntity {
 		return $this->shortNameIt;
 	}
 }
-?>

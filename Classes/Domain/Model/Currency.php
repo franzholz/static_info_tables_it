@@ -83,4 +83,3 @@ class Currency extends AbstractEntity {
 		return $this->subdivisionNameIt;
 	}
 }
-?>

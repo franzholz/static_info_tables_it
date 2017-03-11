@@ -58,4 +58,3 @@ class Language extends AbstractEntity {
 		return $this->nameIt;
 	}
 }
-?>
