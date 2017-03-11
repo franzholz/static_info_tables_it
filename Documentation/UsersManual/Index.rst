@@ -19,9 +19,9 @@ Target group: **Users**
 	:width: 500px
 	:alt: Backend view
 
-	Default Backend view (caption of the image)
+	Backend TCE record of the country
 
-	The Backend view of TYPO3 after the user has clicked on module "List".
+	The Backend view of TYPO3 after the user has clicked on module "List" and on a country record.
 
 
 

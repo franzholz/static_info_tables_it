@@ -15,7 +15,7 @@ Administrator Manual
 Installation
 ------------
 
-The extension is simply installed using the extension manager.
+The extension is simply installed using the Extension Manager.
 
 When installing for the **very first time**, the database updates are performed **automatically**. When **re-installing** after an uninstall or when **updating**, the update script needs to be run **manually** in the Extension Manager.
 
