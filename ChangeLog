@@ -1,3 +1,6 @@
+2017-09-16  Franz Holzinger  <franz@ttproducts.de>
+    * commit #4: add labels for Suisse country zones
+
 2017-05-16  Franz Holzinger  <franz@ttproducts.de>
     * remove autoload psr-4 for SJBR\StaticInfoTables\ from composer.json
 
