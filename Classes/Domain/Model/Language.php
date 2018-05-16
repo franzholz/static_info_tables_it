@@ -26,35 +26,35 @@ namespace SJBR\StaticInfoTables\Domain\Model;
 ***************************************************************/
 
 /**
- * The Language model
- *
- * @copyright Copyright belongs to the respective authors
- * @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
- */
+* The Language model
+*
+* @copyright Copyright belongs to the respective authors
+* @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
+*/
 class Language extends AbstractEntity {
-	/**
-	 * Italian name of the language
-	 * @var string
-	 */
-	protected $nameIt = '';
+    /**
+    * Italian name of the language
+    * @var string
+    */
+    protected $nameIt = '';
 
-	/**
-	 * Sets the Italian name of the language
-	 *
-	 * @param string $nameItalian
-	 *
-	 * @return void
-	 */
-	public function setNameIt($nameIt) {
-		$this->nameIt = $nameIt;
-	}
+    /**
+    * Sets the Italian name of the language
+    *
+    * @param string $nameItalian
+    *
+    * @return void
+    */
+    public function setNameIt($nameIt) {
+        $this->nameIt = $nameIt;
+    }
 
-	/**
-	 * Gets the Italian name of the language
-	 *
-	 * @return string
-	 */
-	public function getNameIt() {
-		return $this->nameIt;
-	}
+    /**
+    * Gets the Italian name of the language
+    *
+    * @return string
+    */
+    public function getNameIt() {
+        return $this->nameIt;
+    }
 }

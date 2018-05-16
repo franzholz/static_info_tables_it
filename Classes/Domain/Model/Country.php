@@ -25,35 +25,35 @@ namespace SJBR\StaticInfoTables\Domain\Model;
 *  This copyright notice MUST APPEAR in all copies of the script!
 ***************************************************************/
 /**
- * The Country model
- *
- * @copyright Copyright belongs to the respective authors
- * @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
- */
+* The Country model
+*
+* @copyright Copyright belongs to the respective authors
+* @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
+*/
 class Country extends AbstractEntity {
-	/**
-	 * The Italian short name
-	 * @var string
-	 */
-	protected $shortNameIt = '';
+    /**
+    * The Italian short name
+    * @var string
+    */
+    protected $shortNameIt = '';
 
-	/**
-	 * Sets the Italian short name.
-	 *
-	 * @param string $shortNameIt
-	 *
-	 * @return void
-	 */
-	public function setShortNameIt($shortNameIt) {
-		$this->shortNameIt = $shortNameIt;
-	}
+    /**
+    * Sets the Italian short name.
+    *
+    * @param string $shortNameIt
+    *
+    * @return void
+    */
+    public function setShortNameIt($shortNameIt) {
+        $this->shortNameIt = $shortNameIt;
+    }
 
-	/**
-	 * Gets the Italian short name.
-	 *
-	 * @return string
-	 */
-	public function getShortNameIt() {
-		return $this->shortNameIt;
-	}
+    /**
+    * Gets the Italian short name.
+    *
+    * @return string
+    */
+    public function getShortNameIt() {
+        return $this->shortNameIt;
+    }
 }

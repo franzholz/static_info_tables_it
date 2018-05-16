@@ -25,61 +25,61 @@ namespace SJBR\StaticInfoTables\Domain\Model;
 *  This copyright notice MUST APPEAR in all copies of the script!
 ***************************************************************/
 /**
- * The Currency model
- *
- * @copyright Copyright belongs to the respective authors
- * @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
- */
+* The Currency model
+*
+* @copyright Copyright belongs to the respective authors
+* @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
+*/
 class Currency extends AbstractEntity {
-	/**
-	 * Italian name of the currency
-	 * @var string
-	 */
-	protected $nameIt = '';
+    /**
+    * Italian name of the currency
+    * @var string
+    */
+    protected $nameIt = '';
 
-	/**
-	 * Italian name of the currency subdivision unit
-	 * @var string
-	 */
-	protected $subdivisionNameIt = '';
+    /**
+    * Italian name of the currency subdivision unit
+    * @var string
+    */
+    protected $subdivisionNameIt = '';
 
-	/**
-	 * Sets the Italian name of the currency
-	 *
-	 * @param string $nameIt
-	 *
-	 * @return void
-	 */
-	public function setNameIt($nameIt) {
-		$this->nameIt = $nameIt;
-	}
+    /**
+    * Sets the Italian name of the currency
+    *
+    * @param string $nameIt
+    *
+    * @return void
+    */
+    public function setNameIt($nameIt) {
+        $this->nameIt = $nameIt;
+    }
 
-	/**
-	 * Gets the Italian name of the currency
-	 *
-	 * @return string
-	 */
-	public function getNameIt() {
-		return $this->nameIt;
-	}
+    /**
+    * Gets the Italian name of the currency
+    *
+    * @return string
+    */
+    public function getNameIt() {
+        return $this->nameIt;
+    }
 
-	/**
-	 * Sets the Italian name of the currency subdivision
-	 *
-	 * @param string $subdivisionNameIt
-	 *
-	 * @return void
-	 */
-	public function setSubdivisionNameIt($subdivisionNameIt) {
-		$this->subdivisionNameIt = $subdivisionNameIt;
-	}
+    /**
+    * Sets the Italian name of the currency subdivision
+    *
+    * @param string $subdivisionNameIt
+    *
+    * @return void
+    */
+    public function setSubdivisionNameIt($subdivisionNameIt) {
+        $this->subdivisionNameIt = $subdivisionNameIt;
+    }
 
-	/**
-	 * Gets the Italian name of the currency subdivision
-	 *
-	 * @return string
-	 */
-	public function getSubdivisionNameIt() {
-		return $this->subdivisionNameIt;
-	}
+    /**
+    * Gets the Italian name of the currency subdivision
+    *
+    * @return string
+    */
+    public function getSubdivisionNameIt() {
+        return $this->subdivisionNameIt;
+    }
 }
