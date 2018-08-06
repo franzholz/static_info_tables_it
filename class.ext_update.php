@@ -54,6 +54,6 @@ class ext_update {
 	}
 
 	public function access() {
-		return TRUE;
+		return true;
 	}
 }
