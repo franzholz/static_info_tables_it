@@ -41,7 +41,7 @@ class Language extends AbstractEntity {
     /**
     * Sets the Italian name of the language
     *
-    * @param string $nameItalian
+    * @param string $nameIt
     *
     * @return void
     */
