@@ -5,7 +5,7 @@ $EM_CONF[$_EXTKEY] = Array (
 	'description' => 'Italian (it) language pack for the Static Info Tables providing localized names for countries, currencies and so on.',
 	'category' => 'misc',
 	'shy' => 0,
-	'version' => '6.7.0',
+	'version' => '6.7.1',
 	'priority' => '',
 	'loadOrder' => '',
 	'module' => '',
@@ -22,8 +22,8 @@ $EM_CONF[$_EXTKEY] = Array (
 	'CGLcompliance_note' => '',
 	'constraints' => array (
 		'depends' => array(
-            'typo3' => '8.7.0-9.5.99',
-            'static_info_tables' => '6.7.3-6.7.99',
+            'typo3' => '8.7.0-10.99.99',
+            'static_info_tables' => '6.7.3-6.99.99',
 		),
 		'conflicts' => array(
 		),
