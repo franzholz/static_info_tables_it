@@ -260,7 +260,7 @@ UPDATE static_currencies SET cu_name_it='Kwanza Angolano',cu_sub_name_it='' WHER
 UPDATE static_currencies SET cu_name_it='Peso Argentino',cu_sub_name_it='' WHERE cu_iso_3='ARS';
 UPDATE static_currencies SET cu_name_it='Dollaro Australiano',cu_sub_name_it='' WHERE cu_iso_3='AUD';
 UPDATE static_currencies SET cu_name_it='Fiorino di Aruba',cu_sub_name_it='' WHERE cu_iso_3='AWG';
-UPDATE static_currencies SET cu_name_it='',cu_sub_name_it='' WHERE cu_iso_3='AZN';
+UPDATE static_currencies SET cu_name_it='Manat Azero',cu_sub_name_it='' WHERE cu_iso_3='AZN';
 UPDATE static_currencies SET cu_name_it='Marco Conv. Bosnia-Erzegovina',cu_sub_name_it='' WHERE cu_iso_3='BAM';
 UPDATE static_currencies SET cu_name_it='Dollaro di Barbados',cu_sub_name_it='' WHERE cu_iso_3='BBD';
 UPDATE static_currencies SET cu_name_it='Taka Bangladese',cu_sub_name_it='' WHERE cu_iso_3='BDT';
@@ -373,7 +373,7 @@ UPDATE static_currencies SET cu_name_it='Franco Ruandese',cu_sub_name_it='' WHER
 UPDATE static_currencies SET cu_name_it='Ryal Saudita',cu_sub_name_it='' WHERE cu_iso_3='SAR';
 UPDATE static_currencies SET cu_name_it='Dollaro delle Isole Solomon',cu_sub_name_it='' WHERE cu_iso_3='SBD';
 UPDATE static_currencies SET cu_name_it='Rupia delle Seychelles',cu_sub_name_it='' WHERE cu_iso_3='SCR';
-UPDATE static_currencies SET cu_name_it='',cu_sub_name_it='' WHERE cu_iso_3='SDG';
+UPDATE static_currencies SET cu_name_it='Sterlina Sudanese',cu_sub_name_it='' WHERE cu_iso_3='SDG';
 UPDATE static_currencies SET cu_name_it='Corona Svedese',cu_sub_name_it='' WHERE cu_iso_3='SEK';
 UPDATE static_currencies SET cu_name_it='Dollaro di Singapore',cu_sub_name_it='' WHERE cu_iso_3='SGD';
 UPDATE static_currencies SET cu_name_it='Sterlina di Sant’Elena',cu_sub_name_it='' WHERE cu_iso_3='SHP';
@@ -411,15 +411,15 @@ UPDATE static_currencies SET cu_name_it='Rand Sudafricano',cu_sub_name_it='' WHE
 UPDATE static_currencies SET cu_name_it='Kwacha dello Zambia',cu_sub_name_it='' WHERE cu_iso_3='ZMW';
 UPDATE static_currencies SET cu_name_it='Dollaro dello Zimbabwe',cu_sub_name_it='' WHERE cu_iso_3='ZWD';
 UPDATE static_currencies SET cu_name_it='Afgani',cu_sub_name_it='' WHERE cu_iso_3='AFN';
-UPDATE static_currencies SET cu_name_it='',cu_sub_name_it='' WHERE cu_iso_3='RSD';
+UPDATE static_currencies SET cu_name_it='Dinaro Serbo',cu_sub_name_it='' WHERE cu_iso_3='RSD';
 UPDATE static_currencies SET cu_name_it='Ariary Malgascio',cu_sub_name_it='' WHERE cu_iso_3='MGA';
-UPDATE static_currencies SET cu_name_it='',cu_sub_name_it='' WHERE cu_iso_3='SRD';
-UPDATE static_currencies SET cu_name_it='',cu_sub_name_it='' WHERE cu_iso_3='TRY';
-UPDATE static_currencies SET cu_name_it='',cu_sub_name_it='' WHERE cu_iso_3='SSP';
-UPDATE static_currencies SET cu_name_it='',cu_sub_name_it='' WHERE cu_iso_3='GHS';
-UPDATE static_currencies SET cu_name_it='',cu_sub_name_it='' WHERE cu_iso_3='MZN';
-UPDATE static_currencies SET cu_name_it='',cu_sub_name_it='' WHERE cu_iso_3='RON';
-UPDATE static_currencies SET cu_name_it='',cu_sub_name_it='' WHERE cu_iso_3='TMT';
+UPDATE static_currencies SET cu_name_it='Dollaro Surinamese',cu_sub_name_it='' WHERE cu_iso_3='SRD';
+UPDATE static_currencies SET cu_name_it='Lira Turca',cu_sub_name_it='' WHERE cu_iso_3='TRY';
+UPDATE static_currencies SET cu_name_it='Sterlina Sudsudanese',cu_sub_name_it='' WHERE cu_iso_3='SSP';
+UPDATE static_currencies SET cu_name_it='Cedi Ghanese',cu_sub_name_it='' WHERE cu_iso_3='GHS';
+UPDATE static_currencies SET cu_name_it='Metical',cu_sub_name_it='' WHERE cu_iso_3='MZN';
+UPDATE static_currencies SET cu_name_it='Leu Romeno',cu_sub_name_it='' WHERE cu_iso_3='RON';
+UPDATE static_currencies SET cu_name_it='Manat Turkmeno',cu_sub_name_it='' WHERE cu_iso_3='TMT';
 ## static_languages
 UPDATE static_languages SET lg_name_it='abkhazian' WHERE lg_iso_2='AB' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_it='afar' WHERE lg_iso_2='AA' AND lg_country_iso_2='';
