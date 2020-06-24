@@ -1,5 +1,5 @@
 {
-  "name": "jambagecom/static-info-tables-it",
+  "name": "sjbr/static-info-tables-it",
   "type": "typo3-cms-extension",
   "description": "Italian (it) language pack for the Static Info Tables providing localized names for countries, currencies and so on. TYPO3 extension.",
   "license": "GPL-2.0-or-later",
