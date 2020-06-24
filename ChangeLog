@@ -1,3 +1,6 @@
+2020-06-24  Davide Alghi
+    * feature: add missing currency names
+
 2019-11-27  Franz Holzinger  <franz@ttproducts.de>
     * compatibility with TYPO3 10: Add the file Configuration/Extbase/Persistence/Classes.php.
 
