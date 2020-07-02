@@ -250,6 +250,7 @@ UPDATE static_countries SET cn_short_it='Bonaire, Sint Eustatius, Saba' WHERE cn
 UPDATE static_countries SET cn_short_it='Curaçao' WHERE cn_iso_2='CW';
 UPDATE static_countries SET cn_short_it='Sint Maarten' WHERE cn_iso_2='SX';
 UPDATE static_countries SET cn_short_it='Sudan del Sud' WHERE cn_iso_2='SS';
+UPDATE static_countries SET cn_short_it='Cossovo' WHERE cn_iso_2='XK';
 
 ## static_currencies
 UPDATE static_currencies SET cu_name_it='Dirham degli Emirati Arabi Uniti',cu_sub_name_it='' WHERE cu_iso_3='AED';
