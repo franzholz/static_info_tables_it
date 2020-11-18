@@ -1,3 +1,8 @@
+
+2020-11-18  Franz Holzinger  <franz@ttproducts.de>
+    * Important bugfix to the former version 10.0 support.
+    * Simplification of the TCA files.
+
 2020-06-24  Davide Alghi
     * feature: add missing currency names
 
