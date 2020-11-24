@@ -1,4 +1,7 @@
 
+2020-11-24  Franz Holzinger  <franz@ttproducts.de>
+    * fix issue from static_info_tables_de: Undo part of latest pullrequest to the former version 10.0 support.
+
 2020-11-18  Franz Holzinger  <franz@ttproducts.de>
     * Important bugfix to the former version 10.0 support.
     * Simplification of the TCA files.
