@@ -608,9 +608,13 @@ UPDATE static_languages SET lg_name_it='venda' WHERE lg_iso_2='VE' AND lg_countr
 UPDATE static_languages SET lg_name_it='vallone' WHERE lg_iso_2='WA' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_it='portoghese' WHERE lg_iso_2='PT' AND lg_country_iso_2='BR';
 UPDATE static_languages SET lg_name_it='cinese' WHERE lg_iso_2='ZH' AND lg_country_iso_2='CN';
-UPDATE static_languages SET lg_name_it='' WHERE lg_iso_2='FR' AND lg_country_iso_2='CA';
-UPDATE static_languages SET lg_name_it='' WHERE lg_iso_2='TL' AND lg_country_iso_2='PH';
-UPDATE static_languages SET lg_name_it='' WHERE lg_iso_2='SR' AND lg_country_iso_2='ME';
+UPDATE static_languages SET lg_name_it='francese (Canada)' WHERE lg_iso_2='FR' AND lg_country_iso_2='CA';
+UPDATE static_languages SET lg_name_it='filippino' WHERE lg_iso_2='TL' AND lg_country_iso_2='PH';
+UPDATE static_languages SET lg_name_it='montenegrino' WHERE lg_iso_2='SR' AND lg_country_iso_2='ME';
+UPDATE static_languages SET lg_name_it='tedesco (Svizzera)' WHERE lg_iso_2='DE' AND lg_country_iso_2='CH';
+UPDATE static_languages SET lg_name_it='tedesco (Austria)' WHERE lg_iso_2='DE' AND lg_country_iso_2='AT';
+UPDATE static_languages SET lg_name_it='inglese (USA)' WHERE lg_iso_2='EN' AND lg_country_iso_2='US';
+UPDATE static_languages SET lg_name_it='inglese (Regno Unito)' WHERE lg_iso_2='EN' AND lg_country_iso_2='GB';
 ## static_territories
 UPDATE static_territories SET tr_name_it='' WHERE tr_iso_nr='2';
 UPDATE static_territories SET tr_name_it='' WHERE tr_iso_nr='9';
