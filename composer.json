@@ -1,5 +1,5 @@
 {
-  "name": "sjbr/static-info-tables-it",
+  "name": "jambagecom/static-info-tables-it",
   "type": "typo3-cms-extension",
   "description": "Italian (it) language pack for the Static Info Tables providing localized names for countries, currencies and so on. TYPO3 extension.",
   "license": "GPL-2.0-or-later",
@@ -25,12 +25,11 @@
     }
   ],
   "replace": {
-    "sjbr/static-info-tables-it": "self.version",
-    "typo3-ter/static-info-tables-it": "self.version"
+    "jambagecom/static-info-tables-it": "self.version"
   },
   "require": {
-    "php": "^7.0",
-    "typo3/cms-core": "^8.7 || ^9.5 || ^10.0",
+    "php": "^7.2",
+    "typo3/cms-core": "^8.7 || ^9.5 || ^10.4",
     "sjbr/static-info-tables": "^6.7"
   },
   "extra": {
