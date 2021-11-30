@@ -1,3 +1,7 @@
+2021-11-30  Franz Holzinger  <franz@ttproducts.de>
+    * compatibility with TYPO3 11: No other modifications.
+    * add Kosovo, missing languages and territories
+
 2021-07-13  Franz Holzinger  <franz@ttproducts.de>
     * Use the domain jambagecom in the composer.json.
 
