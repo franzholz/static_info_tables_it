@@ -1,3 +1,7 @@
+2023-04-18  Franz Holzinger  <franz@ttproducts.de>
+    * compatibility with TYPO3 12
+    * remove deprecated TypoScript/Extbase/setup.txt
+
 2022-01-25  Franz Holzinger  <franz@ttproducts.de>
     * compatibility with TYPO3 10: Readd needed file class.ext_update.php
 
