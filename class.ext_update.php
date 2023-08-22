@@ -49,7 +49,7 @@ class ext_update {
 		$databaseUpdateUtility = $objectManager->get('SJBR\\StaticInfoTables\\Utility\\DatabaseUpdateUtility');
 		$databaseUpdateUtility->doUpdate('static_info_tables_it');
 
-		$content.= '<p>' . LocalizationUtility::translate('updateLanguageLabels', 'StaticInfoTables') . ' static_info_tables_it.</p>';
+		$content.= '<p>' . LocalizationUtility::translate('updateLanguageLabels', 'StaticInfoTables', ['static_info_tables_it']) . '</p>';
 		return $content;
 	}
 
