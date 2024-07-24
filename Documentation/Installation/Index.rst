@@ -29,4 +29,4 @@ Thus, when the "Static Info Tables" was updated it is sufficient to call the Ita
 
 	Extension Manager with static_info_tables and static_info_tables_it
 
-	In the actions column, the first icon of "Static Info Tables" will show its configuration options (not available for "Static Infos Tables (it)"). The second icon will run the update script.
+	In the actions column, the first icon of "Static Info Tables" will show its configuration options (not available for "Static Info Tables (it)"). The second icon will run the update script.
